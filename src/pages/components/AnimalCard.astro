@@ -1,8 +1,10 @@
 ---
 const { name, image } = Astro.props;
-const site = '/animal-blogs/' + name.replaceAll(" ", "-") + '/';
+console.log(name);
+console.log(image);
+const site = '/animal-blogs/' + name + '/';
 ---
-<a href={site}>
+<a href={site.replaceAll(" ", "-")}>
     <img src={image}>
     <p>{name}</p>
 </a>

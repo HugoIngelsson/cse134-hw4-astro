@@ -1,5 +1,5 @@
 ---
-layout: ./src/layouts/MarkdownAnimalLayout.astro
+layout: ../../layouts/MarkdownAnimalLayout.astro
 name: 'Python'
 pubDate: 2025-11-17
 description: 'This is a page about pythons.'
