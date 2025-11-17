@@ -5,7 +5,7 @@ pubDate: 2025-11-17
 description: 'This is a page about leopards.'
 author: 'Hugo'
 image:
-    url: '/src/img/leopard.jpg'
+    url: '/img/leopard.jpg'
     alt: 'A leopard resting in some tall grass.'
 tags: ["astro", "blogging", "learning in public"]
 ---

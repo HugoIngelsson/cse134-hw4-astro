@@ -1,0 +1,49 @@
+html {
+  background-color: rgb(222, 255, 230);
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+
+  li {
+    max-width: 50%;
+  }
+}
+
+nav ul a {
+  padding: 0 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: rgb(0, 105, 0);
+}
+
+a:visited {
+  color: rgb(6, 145, 6);
+}

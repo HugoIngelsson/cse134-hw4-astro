@@ -5,7 +5,7 @@ pubDate: 2025-11-17
 description: 'This is a page about pythons.'
 author: 'Hugo'
 image:
-    url: '/src/img/python.jpg'
+    url: '/img/python.jpg'
     alt: 'A python curled up on a white surface.'
 tags: ["astro", "blogging", "learning in public"]
 ---
