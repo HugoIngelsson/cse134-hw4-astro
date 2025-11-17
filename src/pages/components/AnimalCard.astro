@@ -1,7 +1,5 @@
 ---
 const { name, image } = Astro.props;
-console.log(name);
-console.log(image);
 const site = '/animal-blogs/' + name + '/';
 ---
 <a href={site.replaceAll(" ", "-")}>
