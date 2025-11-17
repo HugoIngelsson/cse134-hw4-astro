@@ -1,0 +1,40 @@
+---
+import Navigation from "./components/Navigation.astro";
+import AnimalCard from "./components/AnimalCard.astro";
+const favAnimals = [
+  {image: "./src/img/gorilla.jpg", name: "Gorilla"},
+  {image: "./src/img/leopard.jpg", name: "Leopard"}
+];
+const pageTitle = "The Jungle";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <Navigation />
+    <h1>Welcome to the jungle!</h1>
+    <p>
+      I really love animals that live in the jungle, so I made a website
+      all about them.
+    </p>
+
+    <p>
+      Here are my favorites:
+    </p>
+
+    <ul>
+      {favAnimals.map((data) => <li><AnimalCard image={data.image} name={data.name} /></li>)}
+    </ul>
+
+    <p>
+      Check out the <a href="./gallery">Gallery</a> to see a full list of animals.
+    </p>
+  </body>
+</html>
